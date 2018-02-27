@@ -1,4 +1,4 @@
-package com.designpatterns.creational.factory.statics;
+package com.designpatterns.creational.Factory.statics;
 
 /**
  * @ClassName: FactoryTest

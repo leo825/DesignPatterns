@@ -1,6 +1,6 @@
-package com.designpatterns.creational.factory.normal.impl;
+package com.designpatterns.creational.Factory.normal.impl;
 
-import com.designpatterns.creational.factory.normal.Sender;
+import com.designpatterns.creational.Factory.normal.Sender;
 
 /**
  * @ClassName: MailSender.java

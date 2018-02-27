@@ -1,9 +1,9 @@
-package com.designpatterns.creational.factory.multi.impl;
+package com.designpatterns.creational.Factory.multi.impl;
 
-import com.designpatterns.creational.factory.multi.Sender;
+import com.designpatterns.creational.Factory.multi.Sender;
 
 /**
- * @ClassName: MailSender
+ * @ClassName: MailSender.java
  * @Description: 邮件发送实现
  * @author leo
  * @date 2016年5月2日 下午8:30:58
@@ -13,14 +13,8 @@ import com.designpatterns.creational.factory.multi.Sender;
  */
 public class MailSender implements Sender {
 
-	/*
-	 * (non-Javadoc)
-	 * @Description: 使用邮件进行发送
-	 * @author leo
-	 * @date 2016年5月2日 下午8:37:33
-	 * @modifier
-	 * @modify-date 2016年5月2日 下午8:37:33
-	 * @version 1.0
+	/**
+	 * 使用邮件进行发送
 	 */
 	@Override
 	public void Send() {

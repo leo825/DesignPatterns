@@ -1,7 +1,7 @@
-package com.designpatterns.creational.factory.multi;
+package com.designpatterns.creational.Factory.multi;
 
 /**
- * @ClassName: Sender
+ * @ClassName: Sender.java
  * @Description: 发送接口
  * @author leo
  * @date 2016年5月2日 下午8:29:41
@@ -11,13 +11,7 @@ package com.designpatterns.creational.factory.multi;
  */
 public interface Sender {
 	/**
-	 * Class Name: Sender.java
-	 * @Description: 发送方法
-	 * @author leo
-	 * @date 2016年5月2日 下午8:30:01
-	 * @modifier
-	 * @modify-date 2016年5月2日 下午8:30:01
-	 * @version 1.0
+	 * 发送方法
 	 */
 	public void Send();
 }

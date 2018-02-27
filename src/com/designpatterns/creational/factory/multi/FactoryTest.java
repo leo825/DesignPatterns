@@ -1,7 +1,7 @@
-package com.designpatterns.creational.factory.multi;
+package com.designpatterns.creational.Factory.multi;
 
 /**
- * @ClassName: FactoryTest
+ * @ClassName: FactoryTest.java
  * @Description: 工厂测试类
  * @author leo
  * @date 2016年5月2日 下午8:43:36

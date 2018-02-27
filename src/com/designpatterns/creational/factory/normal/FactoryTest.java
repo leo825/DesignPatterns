@@ -1,4 +1,4 @@
-package com.designpatterns.creational.factory.normal;
+package com.designpatterns.creational.Factory.normal;
 
 /**
  * @ClassName: FactoryTest.java

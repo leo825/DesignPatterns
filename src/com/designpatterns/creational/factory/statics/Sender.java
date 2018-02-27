@@ -1,4 +1,4 @@
-package com.designpatterns.creational.factory.statics;
+package com.designpatterns.creational.Factory.statics;
 
 /**
  * @ClassName: Sender
@@ -11,13 +11,7 @@ package com.designpatterns.creational.factory.statics;
  */
 public interface Sender {
 	/**
-	 * Class Name: Sender.java
-	 * @Description: 发送方法
-	 * @author leo
-	 * @date 2016年5月2日 下午8:30:01
-	 * @modifier
-	 * @modify-date 2016年5月2日 下午8:30:01
-	 * @version 1.0
+	 * 发送方法
 	 */
 	public void Send();
 }

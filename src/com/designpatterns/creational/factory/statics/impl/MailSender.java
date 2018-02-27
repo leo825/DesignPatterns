@@ -1,6 +1,6 @@
-package com.designpatterns.creational.factory.statics.impl;
+package com.designpatterns.creational.Factory.statics.impl;
 
-import com.designpatterns.creational.factory.statics.Sender;
+import com.designpatterns.creational.Factory.statics.Sender;
 
 /**
  * @ClassName: MailSender
@@ -13,14 +13,8 @@ import com.designpatterns.creational.factory.statics.Sender;
  */
 public class MailSender implements Sender {
 
-	/*
-	 * (non-Javadoc)
-	 * @Description: 使用邮件进行发送
-	 * @author leo
-	 * @date 2016年5月2日 下午8:37:33
-	 * @modifier
-	 * @modify-date 2016年5月2日 下午8:37:33
-	 * @version 1.0
+	/**
+	 * 使用邮件进行发送
 	 */
 	@Override
 	public void Send() {

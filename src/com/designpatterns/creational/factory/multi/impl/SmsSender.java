@@ -1,10 +1,9 @@
-package com.designpatterns.creational.factory.multi.impl;
+package com.designpatterns.creational.Factory.multi.impl;
 
-import com.designpatterns.creational.factory.multi.Sender;
+import com.designpatterns.creational.Factory.multi.Sender;
 
 /**
- * 
- * @ClassName: SmsSender
+ * @ClassName: SmsSender.java
  * @Description: 短信发送实现类
  * @author leo
  * @date 2016年5月2日 下午8:39:22
@@ -15,14 +14,9 @@ import com.designpatterns.creational.factory.multi.Sender;
 public class SmsSender implements Sender {
 
 	
-	/* (non-Javadoc)
-	 * @Description: 短信发送
-	 * @author leo
-	 * @date 2016年5月2日 下午8:39:46
-	 * @modifier
-	 * @modify-date 2016年5月2日 下午8:39:46
-	 * @version 1.0
-	*/
+	/**
+	 * 短信发送
+	 */
 	@Override
 	public void Send() {
 		System.out.println("this is sms sender!");

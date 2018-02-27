@@ -1,7 +1,7 @@
-package com.designpatterns.creational.factory.normal;
+package com.designpatterns.creational.Factory.normal;
 
-import com.designpatterns.creational.factory.normal.impl.MailSender;
-import com.designpatterns.creational.factory.normal.impl.SmsSender;
+import com.designpatterns.creational.Factory.normal.impl.MailSender;
+import com.designpatterns.creational.Factory.normal.impl.SmsSender;
 
 /**
  * @ClassName: SendFactory.java
@@ -21,15 +21,8 @@ import com.designpatterns.creational.factory.normal.impl.SmsSender;
  */
 public class SendFactory {
 	/**
-	 * Class Name: SendFactory.java
-	 * 
-	 * @Description: 实例化要发送的方式的实体
-	 * @author leo
-	 * @date 2016年5月2日 下午8:42:25
-	 * @modifier
-	 * @modify-date 2016年5月2日 下午8:42:25
-	 * @version 1.0
-	 * @param type发送类型
+	 * 实例化要发送的方式的实体
+	 * @param type 发送类型
 	 * @return
 	 */
 	public Sender produce(String type) {
@@ -42,4 +35,5 @@ public class SendFactory {
 			return null;
 		}
 	}
+
 }
