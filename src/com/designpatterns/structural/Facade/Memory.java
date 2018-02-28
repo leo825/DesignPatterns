@@ -1,7 +1,7 @@
 package com.designpatterns.structural.Facade;
 /**
  * ClassName: Memory.java
- * @Description: 描述
+ * @Description: 内存
  * @author leo
  * @date 2018年2月28日 下午12:18:21
  * @modifier
